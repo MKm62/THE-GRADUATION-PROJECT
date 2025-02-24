@@ -1,0 +1,27 @@
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 200px;
+}
+.card-title {
+  color: #0088ff;
+}
+.card-text {
+  color: #0a2e72;
+  font-weight: bold;
+}
+.card-subtext {
+  color: #454d5d;
+}
+.section_btn {
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #0088ff;
+  width: 170px;
+  border-radius: 600px;
+  padding: 10px;
+  cursor: pointer;
+}

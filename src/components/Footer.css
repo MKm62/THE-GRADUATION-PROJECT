@@ -1,0 +1,38 @@
+.Footer {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 80px;
+}
+ul {
+  list-style: none;
+}
+.date {
+  color: #ff9000;
+}
+li {
+  font-size: 13px;
+  margin-bottom: 9px;
+}
+p {
+  font-size: 13px;
+  margin-bottom: 9px;
+}
+.face-Icon {
+  border: 0.2px solid white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.twitter-Icon {
+  border: 0.2px solid white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 12px;
+  background-color: #3974e2;
+}

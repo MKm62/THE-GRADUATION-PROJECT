@@ -1,0 +1,16 @@
+.aboutUs {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+.aboutUs h2 {
+  color: #0a2e72;
+  font-weight: 700;
+}
+.aboutUs p {
+  color: #7d7987;
+  line-height: 1.8;
+}

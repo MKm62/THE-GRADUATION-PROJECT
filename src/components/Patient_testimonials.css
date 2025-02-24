@@ -1,0 +1,46 @@
+.subtitle1{
+    width: 600px;
+    margin: 0 auto;
+}
+.title1 {
+   /* margin-top: 20px; */
+   margin-bottom: 90px;
+} 
+.testcards,.iconn,.carddd{
+    background-color:#e8eaee;
+}
+.carddd{
+    height: 350px ;
+}
+.iconn{
+  width: 50px;
+  height: 50px;
+  /* background-color: #e8eaee; */
+}
+/* .carddd{
+     background-color:#e8eaee
+} */
+.ss{
+    width: 1200px;
+    margin-left: 170px;
+    margin-bottom: 250px;
+}
+.slick-slide > div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ct{
+    color:rgb(10,46,114);
+}
+.cst{
+    color:rgb(0, 136,255);
+}
+/* .text{
+    margin-left: 10px;
+} */
+.rating{
+    margin-left: 93px;
+}
+.con{
+    width: 180px;
+}
