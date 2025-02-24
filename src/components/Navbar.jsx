@@ -6,8 +6,10 @@ import HelpLogo from "../assets/images/Help.png";
 import locationLogo from "../assets/images/location.png";
 import mailLogo from "../assets/images/mail.png";
 import phoneLogo from "../assets/images/phone.png";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="info d-flex mt-1">
@@ -89,7 +91,13 @@ const Navbar = () => {
             <button type="button" className="btn  btn-primary">
               Login
             </button>
-            <button type="button" className="btn btn-light">
+            <button
+              type="button"
+              className="btn btn-light"
+              onClick={() => {
+                navigate("/signup1");
+              }}
+            >
               Sign up
             </button>
           </div>
