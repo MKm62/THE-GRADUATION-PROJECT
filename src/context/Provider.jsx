@@ -14,6 +14,16 @@ export default function Provider({ children }) {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
+  const [gender, setGender] = useState("");
+  const [birthDate, setBirthDate] = useState("");
+  const [age, setAge] = useState(0);
+  const [height, setHeight] = useState();
+  const [weight, setWeight] = useState();
+  const [foodAllergies, setFoodAllergies] = useState("");
+  const [fatherHereditaryDiseases, setFatherHereditaryDiseases] = useState("");
+  const [motherHereditaryDiseases, setMotherHereditaryDiseases] = useState("");
+  const [bloodType, setBloodType] = useState("");
+
   return (
     <UserContext.Provider
       value={{
@@ -37,6 +47,24 @@ export default function Provider({ children }) {
         setPassword,
         confirmPassword,
         setConfirmPassword,
+        gender,
+        setGender,
+        birthDate,
+        setBirthDate,
+        age,
+        setAge,
+        height,
+        setHeight,
+        weight,
+        setWeight,
+        foodAllergies,
+        setFoodAllergies,
+        fatherHereditaryDiseases,
+        setFatherHereditaryDiseases,
+        motherHereditaryDiseases,
+        setMotherHereditaryDiseases,
+        bloodType,
+        setBloodType,
       }}
     >
       {children}

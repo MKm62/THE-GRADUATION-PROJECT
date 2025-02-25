@@ -4,9 +4,33 @@
 .inputBox::placeholder {
   color: #66666640;
 }
-
+.bloodTypeContainer {
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: #0088ff;
+  margin-bottom: 10%;
+}
+.bloodTypesContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+.robotCheckContainer {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  align-self: center;
+  padding: 5px;
+  margin: 5px;
+}
 @media screen and (max-width: 768px) {
   .inputBox {
     width: 300px;
+  }
+  .bloodTypesContainer {
+    width: 250px;
   }
 }

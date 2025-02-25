@@ -46,26 +46,25 @@ export default function FormSignup1() {
       setHiddenConfirmPassword(false);
     }
   }
-  function handleSubmitForm(e) {
+  function handleSubmitSignup1(e) {
+    e.preventDefault();
+
     const hasLetter = /[a-zA-Z]/.test(password);
     const hasDigit = /[0-9]/.test(password);
     const hasSymbol = /[!@#$%^&*(),.?":{}|<>]/.test(password);
     if (password !== confirmPassword) {
-      e.preventDefault();
       alert("Wrong password confrimation !");
     } else if (!(hasLetter && hasDigit && hasSymbol)) {
-      e.preventDefault();
       alert(
         "Weak password ! Please make sure that you password contains 8 or more characters with a mix of letters, numbers & symbols "
       );
     } else {
-      e.preventDefault();
       console.log("Sign in 1 successfully");
       navigate("/signup2");
     }
   }
   return (
-    <Form onSubmit={handleSubmitForm} className="d-flex flex-column mx-4">
+    <Form onSubmit={handleSubmitSignup1} className="d-flex flex-column mx-4">
       <div className="d-flex flex-md-row flex-column justify-content-evenly align-items-md-start align-items-center gap-md-5 gap-1">
         <div className="d-flex flex-column">
           <Form.Group className="mb-3">
