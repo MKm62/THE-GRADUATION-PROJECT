@@ -62,7 +62,9 @@ export default function FormSignup2() {
                 setBirthDate(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(birthDate)}
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Age</Form.Label>
@@ -75,7 +77,9 @@ export default function FormSignup2() {
                 setAge(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(age)}
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Height</Form.Label>
@@ -89,7 +93,9 @@ export default function FormSignup2() {
                 setHeight(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(height)}
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Weight</Form.Label>
@@ -102,7 +108,9 @@ export default function FormSignup2() {
                 setWeight(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(weight)}
+            </Form.Control>
           </Form.Group>
         </div>
         <div className="d-flex flex-column">
@@ -116,7 +124,9 @@ export default function FormSignup2() {
                 setFoodAllergies(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(foodAllergies)}
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Father's Hereditary Diseases(optional)</Form.Label>
@@ -127,7 +137,9 @@ export default function FormSignup2() {
                 setFatherHereditaryDiseases(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(fatherHereditaryDiseases)}
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Mother's Hereditary Diseases(optional)</Form.Label>
@@ -138,7 +150,9 @@ export default function FormSignup2() {
                 setMotherHereditaryDiseases(e.target.value);
               }}
               className={styles.inputBox}
-            ></Form.Control>
+            >
+              {console.log(motherHereditaryDiseases)}
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Blood Group</Form.Label>
