@@ -9,7 +9,7 @@ import Provider from "./context/Provider";
 import Homepage from "./pages/Homepage";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Signup1 from "./pages/Signup1";
+import SignupPage1 from "./pages/SignupPage1";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/blog" element={<ProfessionalCareProvider />} />
           <Route path="/contact" element={<Footer />} />
-          <Route path="/signup1" element={<Signup1 />} />
+          <Route path="/signup1" element={<SignupPage1 />} />
         </Routes>
       </BrowserRouter>
     </Provider>
