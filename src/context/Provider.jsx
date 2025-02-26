@@ -24,6 +24,12 @@ export default function Provider({ children }) {
   const [motherHereditaryDiseases, setMotherHereditaryDiseases] = useState("");
   const [bloodType, setBloodType] = useState("");
 
+  const [diagnosis, setDiagnosis] = useState([]);
+  const [surgeries, setSurgeries] = useState([]);
+  const [labResults, setLabResults] = useState([]); //array of files
+  const [surgeriesFiles, setSurgeriesFiles] = useState([]);
+  const [labResultsFiles, setLabResultsFiles] = useState([]);
+
   return (
     <UserContext.Provider
       value={{
@@ -65,6 +71,16 @@ export default function Provider({ children }) {
         setMotherHereditaryDiseases,
         bloodType,
         setBloodType,
+        diagnosis,
+        setDiagnosis,
+        surgeries,
+        setSurgeries,
+        labResults,
+        setLabResults,
+        surgeriesFiles,
+        setSurgeriesFiles,
+        labResultsFiles,
+        setLabResultsFiles,
       }}
     >
       {children}

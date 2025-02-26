@@ -26,6 +26,19 @@
   padding: 5px;
   margin: 5px;
 }
+.uploadFile {
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+  cursor: grabbing;
+}
 @media screen and (max-width: 768px) {
   .inputBox {
     width: 300px;
